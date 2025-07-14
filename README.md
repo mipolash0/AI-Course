@@ -19,5 +19,5 @@ Practical use of AI tools for video generation, slide creation, and daily produc
 January 2025 – June 2025
 
 🧑‍🏫 Supervisor
-Course Instructor: Razorshi Prozzwal Talukder
+Course Instructor:SIR Razorshi Prozzwal Talukder
 *Lecturer, Department of CSE, NEUB
