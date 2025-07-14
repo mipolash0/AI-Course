@@ -90,8 +90,4 @@ Presentations and videos generated using AI are visually appealing, informative,
 
 This project offers a practical example of how AI enhances productivity in educational or creative workflows.
 
-📬 Contact
-For more details or questions regarding this project, feel free to contact:
-📧 [yourname@email.com]
-🔗 LinkedIn: Your LinkedIn Profile
-🌐 Portfolio: Your Website
+
