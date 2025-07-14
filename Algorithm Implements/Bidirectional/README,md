@@ -1,1 +1,81 @@
+🔁 Bidirectional Search in C++
+📖 Overview
+Bidirectional Search is an efficient graph search technique that simultaneously performs two BFS traversals — one from the start node and the other from the goal node. The search stops once both traversals meet at a common node (the intersection point), significantly reducing search time from O(b^d) to O(b^(d/2)), where b is the branching factor and d is the distance to the goal.
 
+📌 Key Features
+✅ Interactive CLI for node count, edge list, start, and goal nodes
+
+✅ Works on undirected graphs
+
+✅ Implements dual BFS using queue and unordered_set
+
+✅ Detects intersection point efficiently
+
+✅ Lightweight and portable C++17 implementation
+
+🔧 How the Algorithm Works
+Initialize:
+
+forward_queue starting from start
+
+backward_queue starting from goal
+
+visited_forward and visited_backward sets
+
+Alternately expand nodes from both queues using BFS.
+
+After each expansion:
+
+Check if any node appears in both visited sets
+
+If yes → Meeting point found, path exists
+
+If no intersection and both queues are empty → No path
+
+⚠️ Assumes undirected graph for symmetric traversal.
+
+🖥 Sample Input / Output
+✅ Input:
+yaml
+Copy
+Edit
+Enter number of nodes and edges: 6 7
+Enter edges:
+0 1
+0 2
+1 3
+2 4
+3 5
+4 5
+2 5
+Enter start and goal: 0 5
+🔽 Output:
+pgsql
+Copy
+Edit
+Path found (meeting point at node: 5)
+🌍 Graph Representation
+plaintext
+Copy
+Edit
+      0
+     / \
+    1   2
+    |  / \
+    3 4   5
+     \____/
+Possible paths from 0 to 5:
+
+0 → 2 → 5
+
+0 → 1 → 3 → 5
+
+0 → 2 → 4 → 5
+
+🚀 Applications
+Domain	Use Case Example
+🌐 Social Networks	Shortest connection between two users
+🛣 Routing Systems	Quick road/path search between locations
+🕹 Game AI	Symmetric pathfinding in maze or grid games
+🔎 Web Crawling	Reverse path lookup between two pages
+🗃 Databases	Relationship tracing in graph DBs (e.g., Neo4j)
