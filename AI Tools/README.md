@@ -1,5 +1,3 @@
-📊 AI-Generated Content Project
-This project showcases the power of artificial intelligence tools in automatically creating engaging digital content — including a presentation and a narrated video. All scripts and outlines were written by ChatGPT, and the final content was created using Gamma and InVideo, two popular AI-powered creation platforms.
 
 🎯 Objective
 The main goal of this project is to explore how AI can assist in generating educational and promotional content with minimal manual effort. It demonstrates how:
